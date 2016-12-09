@@ -1,5 +1,7 @@
 # K-Templator
 
+[![Build Status](https://travis-ci.org/khaiql/k-templator.svg?branch=master)](https://travis-ci.org/khaiql/k-templator) [![Gem Version](https://badge.fury.io/rb/k-templator.svg)](https://badge.fury.io/rb/k-templator)
+
 Tini tool to make use of ERB template and yaml format for generating content of file
 
 ## Installation
