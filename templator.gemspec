@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "k-templator"
   spec.version       = Templator::VERSION
   spec.authors       = ["Scott Le"]
-  spec.email         = ["scott.lee318@gmail.com"]
+  spec.email         = ["scott.lee318@gmail.com", "khai.le@live.com"]
 
   spec.summary       = %q{Generate content based on ERB template file and variables}
   spec.description   = %q{Use Ruby ERB template, plus variables defined in YAML format file to generate content}

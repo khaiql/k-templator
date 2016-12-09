@@ -1,15 +1,13 @@
-# Templator
+# K-Templator
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/templator`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Tini tool to make use of ERB template and yaml format for generating content of file
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'templator'
+gem 'k-templator'
 ```
 
 And then execute:
@@ -18,11 +16,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install templator
+    $ gem install k-templator
 
 ## Usage
 
-TODO: Write usage instructions here
+`templator generate --template=TEMPLATE --var-file=VAR_FILE  # Generate content from template and vars`
 
 ## Development
 
@@ -32,5 +30,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/templator.
+Bug reports and pull requests are welcome on GitHub at https://github.com/khaiql/k-templator.
 
