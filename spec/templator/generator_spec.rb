@@ -1,5 +1,5 @@
 require "spec_helper"
-require "templator/generator"
+# require "templator/generator"
 
 describe Templator::Generator do
   let(:template) { "spec/fixtures/templates/test.erb" }
