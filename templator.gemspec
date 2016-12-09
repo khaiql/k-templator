@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'templator/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "templator"
+  spec.name          = "k-templator"
   spec.version       = Templator::VERSION
   spec.authors       = ["Scott Le"]
   spec.email         = ["scott.lee318@gmail.com"]
