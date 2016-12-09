@@ -6,13 +6,15 @@ module Templator
   class Generator
     attr_reader :template, :var_file
 
-    def initialize(template, var_file)
+    def initialize(template, var_file, extra_args = {})
       @template = template
       @var_file = var_file
+      @extra_args = extra_args
     end
 
     def generate(output_path = "")
       vars = load_vars_from_yaml(self.var_file)
+      vars = vars.merge(@extra_args)
 
       template = Tilt.new(self.template)
       result = template.render(self, vars)
