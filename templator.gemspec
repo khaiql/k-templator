@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Generate content based on ERB template file and variables}
   spec.description   = %q{Use Ruby ERB template, plus variables defined in YAML format file to generate content}
-  spec.homepage      = "https://lequangkhai.wordpress.com"
+  spec.homepage      = "https://github.com/khaiql/k-templator"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
