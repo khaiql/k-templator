@@ -24,6 +24,25 @@ This is an array with items:
       end
     end
 
+    context 'when having extra args' do
+      let(:extra_args) { {"name" => "k templator"} }
+      let(:generator) { Templator::Generator.new(template, var_file, extra_args) }
+      let(:expected_output) do
+        <<-OUTPUT
+Hello k templator
+This is an array with items:
+- first
+- second
+- third
+        OUTPUT
+      end
+
+      it 'merges extra args with var_file' do
+        output = generator.generate
+        expect(output).to match(expected_output)
+      end
+    end
+
     context "when having out params" do
       let(:out_path) { "spec/templator/test_output.txt" }
 
