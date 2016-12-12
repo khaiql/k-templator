@@ -1,6 +1,7 @@
 require "tilt"
 require "erb"
 require "yaml"
+require "json"
 
 module Templator
   class Generator
