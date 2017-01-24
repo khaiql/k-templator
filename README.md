@@ -24,6 +24,12 @@ Or install it yourself as:
 
 `templator generate --template=TEMPLATE --var-file=VAR_FILE  # Generate content from template and vars`
 
+Where:
+- `TEMPLATE`: path to ERB template file
+- `VAR_FILE`: path to YAML file
+
+Example: [https://github.com/khaiql/k-templator/tree/master/spec/fixtures](https://github.com/khaiql/k-templator/tree/master/spec/fixtures)
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
