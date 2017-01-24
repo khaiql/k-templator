@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/khaiql/k-templator.svg?branch=master)](https://travis-ci.org/khaiql/k-templator) [![Gem Version](https://badge.fury.io/rb/k-templator.svg)](https://badge.fury.io/rb/k-templator)
 
-Tini tool to make use of ERB template and yaml format for generating content of file
+Tini tool to generate new content using ERB template and YAML var file. Useful in CI/CD where you generate configuration for different environments.
 
 ## Installation
 
