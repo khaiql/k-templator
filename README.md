@@ -5,21 +5,9 @@
 Tini tool to generate new content using ERB template and YAML var file. Useful in CI/CD where you generate configuration for different environments.
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'k-templator'
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install k-templator
-
+$ gem install k-templator
+```
 ## Usage
 
 `templator generate --template=TEMPLATE --var-file=VAR_FILE  # Generate content from template and vars`
