@@ -24,11 +24,11 @@ Or install it yourself as:
 
 `templator generate --template=TEMPLATE --var-file=VAR_FILE  # Generate content from template and vars`
 
-Where:
+**Where**:
 - `TEMPLATE`: path to ERB template file
 - `VAR_FILE`: path to YAML file
 
-Example: [https://github.com/khaiql/k-templator/tree/master/spec/fixtures](https://github.com/khaiql/k-templator/tree/master/spec/fixtures)
+**Example template and var file**: [https://github.com/khaiql/k-templator/tree/master/spec/fixtures](https://github.com/khaiql/k-templator/tree/master/spec/fixtures)
 
 ## Development
 
